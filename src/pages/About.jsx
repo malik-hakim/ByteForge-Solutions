@@ -1,6 +1,15 @@
+import SEO from '../components/SEO'
+
 function About() {
   return (
-    <div>About</div>
+    <>
+      <SEO
+        title="Tentang Kami"
+        description="Kenali ByteForge Solutions lebih dekat. Kami adalah tim mahasiswa dan lulusan IT yang berdedikasi membantu sesama mahasiswa."
+        url="/about"
+      />
+      <div>About</div>
+    </>
   )
 }
 
