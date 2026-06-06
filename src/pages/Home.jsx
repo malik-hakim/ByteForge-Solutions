@@ -10,7 +10,7 @@ function Home() {
     <>
       <SEO
         title="Jasa Joki Tugas IT Profesional"
-        description="ByteForge Solutions siap bantu kerjain tugas kuliah IT kamu. Web, mobile, database, laporan, dan lainnya. Cepat, rapi, tepat waktu."
+        description="KilatByte Solutions siap bantu kerjain tugas kuliah IT kamu. Web, mobile, database, laporan, dan lainnya. Cepat, rapi, tepat waktu."
         keywords="joki tugas IT, jasa coding, joki web development, joki database, joki mobile app, tugas kuliah IT"
         url="/"
       />

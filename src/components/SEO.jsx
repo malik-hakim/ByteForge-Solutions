@@ -1,11 +1,10 @@
 import { Helmet } from 'react-helmet-async'
 
 function SEO({ title, description, keywords, url, type = 'website' }) {
-  const siteName = 'ByteForge Solutions'
-  const defaultDescription = 'ByteForge Solutions — Jasa pengerjaan tugas IT profesional untuk mahasiswa. Cepat, rapi, dan tepat waktu.'
-  const defaultKeywords = 'joki tugas, joki tugas IT, jasa tugas kuliah, joki coding, joki web, joki skripsi IT, ByteForge'
-  const baseUrl = 'https://byteforgesolutions.com'
-
+  const siteName = 'KilatByte Solutions'
+const defaultDescription = 'KilatByte Solutions — Jasa pengerjaan tugas IT profesional untuk mahasiswa. Cepat, rapi, dan tepat waktu.'
+const defaultKeywords = 'joki tugas, joki tugas IT, jasa tugas kuliah, joki coding, joki web, joki skripsi IT, KilatByte'
+const baseUrl = 'https://kilatbytesolutions.com'
   const fullTitle = title ? `${title} — ${siteName}` : siteName
   const fullUrl = url ? `${baseUrl}${url}` : baseUrl
 

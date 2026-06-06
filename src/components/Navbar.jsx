@@ -19,7 +19,7 @@ function Navbar() {
 
         {/* Logo */}
         <Link to="/" className="text-white font-bold text-xl tracking-tight">
-          Byte<span className="text-blue-500">Forge</span> Solutions
+          Kilat<span className="text-blue-500">Byte</span> Solutions
         </Link>
 
         {/* Desktop Menu */}

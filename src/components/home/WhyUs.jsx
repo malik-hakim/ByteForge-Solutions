@@ -34,7 +34,7 @@ function WhyUs() {
             ✦ Kenapa Kami?
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Kenapa Memilih ByteForge?
+            Kenapa Memilih KilatByte?
           </h2>
           <p className="text-gray-400 text-lg max-w-xl mx-auto">
             Bukan sekadar joki biasa. Kami hadir sebagai solusi akademik yang profesional, aman, dan terpercaya.

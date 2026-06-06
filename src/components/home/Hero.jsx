@@ -26,7 +26,7 @@ function Hero() {
 
         {/* Subtext */}
         <p className="text-gray-400 text-lg md:text-xl leading-relaxed mb-10">
-          ByteForge Solutions siap membantu mengerjakan tugas kuliah IT kamu —
+          KilatByte Solutions siap bantu kerjain tugas kuliah IT kamu —
           dari web development, mobile app, database, hingga laporan. Cepat, rapi, dan tepat waktu.
         </p>
 
