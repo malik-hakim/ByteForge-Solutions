@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'Services', href: '#services' },
-  { label: 'Pricing', href: '#pricing' },
-  { label: 'Portfolio', href: '#portfolio' },
-  { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Beranda', href: '/' },
+  { label: 'Layanan', href: '/#services' },
+  { label: 'Harga', href: '/#pricing' },
+  { label: 'Tentang Kami', href: '/about' },
+  { label: 'Testimoni', href: '/testimoni' },
+  { label: 'FAQ', href: '/faq' },
 ]
 
 function Navbar() {
@@ -17,31 +18,31 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
-        <a href="#home" className="text-white font-bold text-xl tracking-tight">
+        <Link to="/" className="text-white font-bold text-xl tracking-tight">
           Byte<span className="text-blue-500">Forge</span> Solutions
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
                 className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
 
         {/* CTA Button */}
-        <a
-          href="#contact"
+        <Link
+          to="/#contact"
           className="hidden md:inline-block bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2 rounded-lg transition-colors duration-200"
         >
           Order Sekarang
-        </a>
+        </Link>
 
         {/* Hamburger */}
         <button
@@ -64,22 +65,22 @@ function Navbar() {
           <ul className="flex flex-col gap-4 mt-4">
             {navLinks.map((link) => (
               <li key={link.label}>
-                <a
-                  href={link.href}
+                <Link
+                  to={link.href}
                   onClick={() => setIsOpen(false)}
                   className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
-          <a
-            href="#contact"
+          <Link
+            to="/#contact"
             className="mt-4 block text-center bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2 rounded-lg transition-colors duration-200"
           >
             Order Sekarang
-          </a>
+          </Link>
         </div>
       )}
     </nav>

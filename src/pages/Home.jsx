@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Services from '../components/Services'
-import Pricing from '../components/Pricing'
+import Hero from '../components/home/Hero'
+import Services from '../components/home/Services'
+import Pricing from '../components/home/Pricing'
 
 function Home() {
   return (
