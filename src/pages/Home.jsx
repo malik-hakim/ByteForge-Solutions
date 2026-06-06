@@ -1,8 +1,13 @@
+import Navbar from '../components/Navbar'
+
 function Home() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold">ByteForge Solutions</h1>
-    </main>
+    <>
+      <Navbar />
+      <main className="pt-16 bg-gray-950 min-h-screen">
+        {/* section-section akan ditambah di sini */}
+      </main>
+    </>
   )
 }
 
