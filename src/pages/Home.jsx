@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import SEO from '../components/SEO'
 import Hero from '../components/home/Hero'
 import WhyUs from '../components/home/WhyUs'
+import HowItWorks from '../components/home/HowItWorks'
 import Services from '../components/home/Services'
 import Pricing from '../components/home/Pricing'
 
@@ -18,6 +19,7 @@ function Home() {
       <main className="bg-gray-950">
         <Hero />
         <WhyUs />
+        <HowItWorks />
         <Services />
         <Pricing />
       </main>
